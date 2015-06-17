@@ -54,6 +54,8 @@ include('rightmenu.php')
             $mx = $row['perfectnews'];
             echo $mx;
         }
+
+        //aaaaaa
         ?>
     </div>
 </div>
