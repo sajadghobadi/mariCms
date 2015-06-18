@@ -39,8 +39,8 @@
 </head>
 
 <body onLoad="x();">
-<div style="margin:30px auto; width:60%; text-align:center;">
-    <p><img id="slideimage" name="image_0" src="ax/1_p.jpg"></p>
+<div  style="margin:30px auto; width:30%; height:30%;text-align:center;">
+    <p><img title="محمد قبادی" alt="محمد قبادی"    id="slideimage" name="image_0" src="ax/1_p.jpg"></p>
 
     <button onClick="prevImage();"> Previous </button>
     <button onClick="nextImage();"> Next </button>

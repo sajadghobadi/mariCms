@@ -10,7 +10,7 @@
         <?php
 
 
-        $sql1 = " select *  from newsdadi order by history desc limit 5 ";
+        $sql1 = " select *  from newsdadi order by history DESC limit 10 ";
         $result1 = runSelect($sql1);
         while ($row = $result1->fetch(PDO::FETCH_ASSOC)) {
             $smallimage = $row['smallImage'];

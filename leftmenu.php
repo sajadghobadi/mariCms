@@ -37,4 +37,15 @@
         <?php echo $error3; ?>
 </div>
 <div class="well">
+    <!-- Statistics by www.1abzar.com --->
+    <script type="text/javascript" src="http://1abzar.ir/abzar/tools/stat/amar-v3.php?color=333333&bg=F3E3F7&kc=156DA1&kadr=1&amar=vv6joses8e8l7is1rxq3ptbe6gnmi8&show=1|1|1|1|0|0|0"></script><div style="display:none"></div>
+    <!-- Statistics by www.1abzar.com --->
+    <script type="text/javascript">
+        $(document).ready(function(){
+           $('div.ali').on('load',function(){
+               console.log(this);
+           });
+
+        });
+    </script>
 </div>

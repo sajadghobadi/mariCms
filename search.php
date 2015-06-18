@@ -30,22 +30,27 @@ include('clientLibs.php');
         <div class="col-md-6">
                 <?php
                 $b=$_GET['textsearch'];
-                if($b==null)
-                {
+                if($b==null) {
                     header("location:index.php");
                 }
                 else {
-                    $qu = "select * from newsdadi where perfectnews like '% " . $b . " %' ";
-
+                    $h = $b;
+                    $qu = "select * from newsdadi where perfectnews like'%" . $h . "%'";
                     $result1 = runSelect($qu);
+                }
                     if ($result1->rowCount()) {
                         while ($row = $result1->fetch(PDO::FETCH_ASSOC)) {
                             echo '<div class="news">' . '<a href=showsearch.php?groupid1=' . $row['groupid'] . '>' . $row['title'] . '</a>.<br/>' . $row['text'] . '</div>';
+
                         }
                     } else {
                         $error = "موجود نمی باشد";
+
                     }
-                }
+
+
+
+
                 ?>
                 <?php echo $error;?>
         <div class="col-md-3">

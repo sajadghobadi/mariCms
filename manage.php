@@ -1,8 +1,11 @@
 ﻿<?php
 session_start();
-$SESSION=$_SESSION['level'];
-if($SESSION==null||$SESSION=="2")
+?>
+<?php
+$level=$_SESSION['level'];
+if($level==null||$level==2) {
     header("location:index.php");
+}
 ?>
 <html>
 <title>Limerick OneLimerick TwoLimerick</title>
