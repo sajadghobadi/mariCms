@@ -8,8 +8,8 @@
     <META NAME="طراحی و برنامه نویسی وب سایت" CONTENT="رضا قربانی,mehr-design.ir">
     <meta name="keywords" content="محمد,قبادی زاده,محمد قبادی,انتخابات,انتخابات مجلس,سیاسی"/>
     <meta name="description" content="وب سایت شخصی محمد قبادی"/>
-
 </head>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js">{lang: 'fa'}</script>
 <title>
     وب سایت شخصی محمد قبادی
     </title>
