@@ -387,9 +387,9 @@
 {
     padding:7px;
     background:#F3E3F7;
-    width:200px;
     border-radius: 8px;
     -moz-border-radius: 10px;
     font-family:tahoma;
     font-size:11px;
+    border-color: #0000ff;
 }

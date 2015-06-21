@@ -38,6 +38,14 @@
                     ?>
                 </div>
             </div>
+            <div class="panel">
+                <div class="googlepluse">
+                    <div>
+                        با کلیک روی +۱ ما را در گوگل محبوب کنید
+                    </div> &nbsp
+                    <g:plusone href="http://www.ghobadizadeh.ir" size="small"></g:plusone>
+                </div>
+            </div>
         </div>
         <div class="col-md-6">
             <?php

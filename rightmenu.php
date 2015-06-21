@@ -20,12 +20,7 @@
 
 
 </ul>
-<div class="googlepluse">
-    <div>
-        با کلیک روی +۱ ما را در گوگل محبوب کنید
-    </div> &nbsp
-    <g:plusone href="http://www.ghobadizadeh.ir" size="small"></g:plusone>
-    </div>
+
 <!--<div
     style="position:fixed;
 	right:77%; top:83%;
