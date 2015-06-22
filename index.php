@@ -1,8 +1,11 @@
-﻿<html>
+﻿<?php
+session_start();
+?>
+<html>
 <head>
     <meta name="robots" content="index, follow">
     <meta name="GOOGLEBOT" content="noarchive">
-    <meta http-equiv="Content-Language" content="fa">
+    <meta http-equiv="content-language" content="text/html; charset=utf-8">
     <META content=all name=robots>
     <META NAME="author" CONTENT="مریم قبادی">
     <META NAME="طراحی و برنامه نویسی وب سایت" CONTENT="رضا قربانی,mehr-design.ir">

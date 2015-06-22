@@ -2,6 +2,8 @@
 session_start();
 ?>
 <?php
+$username=$_SESSION['use1'];
+$password=$_SESSION['pass1'];
 $level=$_SESSION['level'];
 if($level==null||$level==2) {
     header("location:index.php");
