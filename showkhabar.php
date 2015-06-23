@@ -1,7 +1,7 @@
 ﻿<div class="well newsText" style="height: 700px;">
     <?php
     $id2 = $_GET['tid'];
-    $mm = "select * from newsdadi where id=" . $id2 . "";
+    $mm = "select * from newsdadi where id='" . $id2 . "'";
     $result2 = runSelect($mm);
     // echo 'rresult:'.$result2->rowCount();
     while ($row = $result2->fetch(PDO::FETCH_ASSOC)) {

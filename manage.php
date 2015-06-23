@@ -7,7 +7,9 @@ $password=$_SESSION['pass1'];
 $level=$_SESSION['level'];
 if($level==null||$level==2) {
     header("location:index.php");
+    die();
 }
+
 ?>
 <html>
 <title>Limerick OneLimerick TwoLimerick</title>

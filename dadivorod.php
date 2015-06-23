@@ -36,7 +36,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
             $_SESSION['use1'] = $b1;
             $_SESSION['pass1'] = $b2;
             $_SESSION['level'] = $level;
-            header("location:/index.php?page=showkhabar");
+            header("location:index.php");
             die();
         } else if ($username == $b1 && $password == $b2 && $level == '1') {
             $row = ($result1->fetch(PDO::FETCH_ASSOC));
