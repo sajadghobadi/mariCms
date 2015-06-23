@@ -1,7 +1,8 @@
-﻿<?php
-session_start();
+﻿<html>
+<?php
+ob_start();
+    session_start();
 ?>
-<html>
 <head>
     <meta name="robots" content="index, follow">
     <meta name="GOOGLEBOT" content="noarchive">

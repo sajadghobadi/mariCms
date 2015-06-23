@@ -28,7 +28,6 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
             }
         }
 
-
         if ($username != $b1 || $password != $b2) {
             $error = "نام کاربری یا رمز عبور اشتباه است";
 
